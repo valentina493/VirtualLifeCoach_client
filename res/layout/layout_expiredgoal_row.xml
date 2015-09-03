@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:id="@+id/satisfiedimageview_adapterrow"/>
+
+    <TextView
+        android:id="@+id/satisfiabletextview_adapterrow"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/measuretypenametextview_adapterrow"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/rangetextview_adapterrow"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="0dp" />
+
+    <TextView
+        android:id="@+id/deadlinetextview_adapterrow"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_marginRight="0dp" />
+
+</LinearLayout>

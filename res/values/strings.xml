@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">VirtualLifeCoach</string>
+    <string name="login_instructions">Insert your identifier to log in.\nSign up if you do not have an account.</string>
+    <string name="firstname_hint">First name</string>
+    <string name="lastname_hint">Last name</string>
+    <string name="birthdate_hint">Birthdate (yyyy-MM-dd)</string>
+    <string name="id_hint">Identifier</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_show_profile">My Profile</string>
+    <string name="title_activity_registration">Register</string>
+    <string name="title_activity_change_profile">Modify Profile</string>
+    <string name="title_activity_active_goals_shower">Active Goals</string>
+    <string name="title_activity_measurements_shower">Measurements</string>
+    <string name="title_activity_healthy_recipe">Healthy Recipe</string>
+    <string name="title_activity_expired_goals">Expired Goals</string>
+    <string name="title_activity_goal_trend">Check Goal</string>
+
+    <string name="logging_information_file">virtuallifecoach.logging_file</string>
+    <string name="logging_information_file_userid">virtuallifecoach.logging_file_userid</string>
+    <string name="logging_information_file_userfname">virtuallifecoach.logging_file_userfn</string>
+    <string name="logging_information_file_userlname">virtuallifecoach.logging_file_userln</string>
+    <string name="logging_information_file_userbdate">virtuallifecoach.logging_file_userbdate</string>
+    <string name="delete_profile">Delete my profile</string>
+
+    <string-array name="goalable_mtypes_array">
+        <item>weight</item>
+        <item>sleeping hours</item>
+        <item>steps</item>
+        <item>assumed energy</item>
+        <item>consumed energy</item>
+    </string-array>
+    <string-array name="mtypes_array">
+        <item>weight</item>
+        <item>height</item>
+        <item>blood pressure min</item>
+        <item>blood pressure max</item>
+        <item>heart rate</item>
+        <item>sleeping hours</item>
+        <item>steps</item>
+        <item>assumed energy</item>
+        <item>consumed energy</item>
+    </string-array>
+</resources>

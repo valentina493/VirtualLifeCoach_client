@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.valentina.virtuallifecoach" >
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/run_icon"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowProfile"
+            android:label="@string/title_activity_show_profile" />
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:noHistory="true" />
+        <activity
+            android:name=".ChangeProfile"
+            android:label="@string/title_activity_change_profile" >
+        </activity>
+        <activity
+            android:name=".ActiveGoalsShower"
+            android:label="@string/title_activity_active_goals_shower" >
+        </activity>
+        <activity
+            android:name=".MeasurementsShower"
+            android:label="@string/title_activity_measurements_shower" >
+        </activity>
+        <activity
+            android:name=".HealthyRecipe"
+            android:label="@string/title_activity_healthy_recipe" >
+        </activity>
+        <activity
+            android:name=".ExpiredGoalsShower"
+            android:label="@string/title_activity_expired_goals" >
+        </activity>
+        <activity
+            android:name=".GoalTrend"
+            android:label="@string/title_activity_goal_trend" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_changeprofile"
+        android:orderInCategory="0"
+        android:icon="@drawable/pen_24"
+        android:showAsAction="ifRoom"
+        android:title="change profile" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="0"
+        android:icon="@drawable/exit_24"
+        android:showAsAction="ifRoom"
+        android:title="logout" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings" />
+</menu>
